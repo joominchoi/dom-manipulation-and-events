@@ -21,6 +21,8 @@ blueText.style.color = "Blue";
 container.appendChild(blueText)
 
 const div = document.createElement('div');
+div.style.border = "thick solid black";
+div.style.backgroundColor = "pink";
 
 const insideDiv = document.createElement('h1')
 insideDiv.classList.add('insideDiv')
