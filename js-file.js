@@ -19,3 +19,19 @@ blueText.textContent = "I'm a blue h3!"
 blueText.style.color = "Blue";
 
 container.appendChild(blueText)
+
+const div = document.createElement('div');
+
+const insideDiv = document.createElement('h1')
+insideDiv.classList.add('insideDiv')
+insideDiv.textContent = "I'm in a div"
+
+div.appendChild(insideDiv)
+
+const meToo = document.createElement('p')
+meToo.classList.add('meToo')
+meToo.textContent = 'ME TOO'
+
+div.appendChild(meToo)
+
+container.appendChild(div)
