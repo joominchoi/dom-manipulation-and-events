@@ -12,3 +12,10 @@ redText.textContent = "Hey I'm red!"
 redText.style.color = "Red";
 
 container.appendChild(redText);
+
+const blueText = document.createElement('h3')
+blueText.classList.add('blueText')
+blueText.textContent = "I'm a blue h3!"
+blueText.style.color = "Blue";
+
+container.appendChild(blueText)
